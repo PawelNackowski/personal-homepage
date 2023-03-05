@@ -1,10 +1,12 @@
 export const theme = {
+  
   color: {
     white: "#ffffff",
-    mercury: "#E5E5E5",
-    mischla: "#d1d5da4d",
-    scinceBlue: "#0366D6",
-    slateGray: "#6E7E91",
-    tundora: "#252525",
+    ultraLightBlue:"#0366d633",
+    lightBlue: "#6E7E91",
+    blue: "#0366D6",
+    lightGray: "#fbfbfe",
+    darkerGray:"#d1d5da4d",
+    black: "#252525",
   }
 }
