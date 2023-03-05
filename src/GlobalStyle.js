@@ -10,8 +10,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${({ theme }) => theme.color.mercury};
+    background-color: ${({ theme }) => theme.color.lightGray};
     font-family: 'Inter', sans-serif;
-    color: ${({ theme }) => theme.color.tundora};
+    color: ${({ theme }) => theme.color.black};
+    max-width: 1216px;
+    margin: 0 auto;
   }
   `;
