@@ -1,4 +1,4 @@
-import { Wrapper, Header } from "./styled"
+import { Wrapper, Header, Body } from "./styled";
 
 export const Container = ({ title, body }) => {
   return (
@@ -7,7 +7,9 @@ export const Container = ({ title, body }) => {
         <Header>
           {title}
         </Header>
-        {body}
+        <Body>
+          {body}
+        </Body>
       </Wrapper>
     </>
   )
