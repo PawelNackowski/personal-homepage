@@ -1,6 +1,7 @@
 import { Container } from "./common/Container";
 import { FeatureList } from "./features/Lists/FeatureList";
 import { SkillsList } from "./features/Lists/SkillsList";
+import { ProjectSection } from "./features/Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         title={"What I want to learn next 🚀"}
         body={<FeatureList />}
       />
+      <ProjectSection />
     </>
   );
 }
