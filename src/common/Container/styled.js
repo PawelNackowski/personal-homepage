@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 export const Header = styled.h1`
   margin-top: 0;
   font-size: 30px;
-  border-bottom: 1px solid ${({ theme }) => theme.color.mischla};
+  border-bottom: 1px solid ${({ theme }) => theme.color.darkerGray};
   padding-bottom: 15px;
 `
 
