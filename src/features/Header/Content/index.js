@@ -1,11 +1,13 @@
-import { Button, Header, Text, Wrapper } from "./styled";
+import { Button, Header, Text, Wrapper, ThmemeModeButton, ModeButton } from "./styled";
 import Message from "../../../common/images/Message.svg"
+import ToggleOffLight from "../../../common/images/ToggleOff-light.svg"
 
 export const Content = () => {
   return (
     <>
       <Wrapper>
-        This is
+        <ThmemeModeButton>DARK MODE OFF<ModeButton><img src={ToggleOffLight} alt="Toggle" /></ModeButton> </ThmemeModeButton> 
+        THIS IS
         <Header>
           Paweł Nackowski
         </Header>
