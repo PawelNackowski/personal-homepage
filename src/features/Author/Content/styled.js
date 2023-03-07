@@ -5,6 +5,7 @@ export const Wrapper = styled.div`
 `
 
 export const Header = styled.h1`
+  color: ${({theme}) => theme.color.black};
 `
 
 export const Text = styled.div`
