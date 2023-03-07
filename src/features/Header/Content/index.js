@@ -12,8 +12,8 @@ export const Content = () => {
           Paweł Nackowski
         </Header>
         <Text>
-          👨🏻‍💻 I’m a passionate Frontend Developer in love with React,<br />
-          currently looking for new job opportunities.
+          👨🏻 💻 I'm a passionate Frontend Developer, i feel great in React.<br />
+          Currently looking for new job offers and interesting projects.
         </Text>
         <Button>
           <img src={Message} alt="logo"></img>
