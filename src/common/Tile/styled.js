@@ -20,10 +20,8 @@ export const Header = styled.h2`
 
 export const Descroption = styled.div`
   margin: 24px 0 16px 0;
-  color: ${({ theme }) => theme.color.gray};
 `
 
 export const Link = styled.div`
   margin-top: 8xp;
-  color: ${({ theme }) => theme.color.gray};
 `
