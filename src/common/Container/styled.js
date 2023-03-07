@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
 `
 
 export const Header = styled.h2`
+  color: ${({theme}) => theme.color.black};
   margin-top: 0;
   font-size: 30px;
   border-bottom: 1px solid ${({ theme }) => theme.color.darkerGray};
