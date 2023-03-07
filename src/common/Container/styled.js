@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
   border-radius: 4px;
 `
 
-export const Header = styled.h1`
+export const Header = styled.h2`
   margin-top: 0;
   font-size: 30px;
   border-bottom: 1px solid ${({ theme }) => theme.color.darkerGray};
