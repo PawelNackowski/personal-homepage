@@ -8,22 +8,22 @@ export const Wrapper = styled.div`
   padding: 56px;
 
     &:hover{
-      border: 6px solid ${({theme}) => theme.color.ultraLightBlue};
+      border: 6px solid ${({ theme }) => theme.color.lightBLue};
     }
 `
 
 export const Header = styled.h2`
   margin: 0;
   font-size: 24px;
-  color: ${({theme}) => theme.color.blue};
+  color: ${({ theme }) => theme.color.blue};
 `
 
 export const Descroption = styled.div`
   margin: 24px 0 16px 0;
-  color: ${({theme}) => theme.color.lightBlue};
+  color: ${({ theme }) => theme.color.gray};
 `
 
 export const Link = styled.div`
   margin-top: 8xp;
-  color: ${({ theme }) => theme.color.lightBlue};
+  color: ${({ theme }) => theme.color.gray};
 `
