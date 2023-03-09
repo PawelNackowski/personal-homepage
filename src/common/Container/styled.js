@@ -19,5 +19,5 @@ export const Header = styled.h2`
 
 export const Body = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
 `
