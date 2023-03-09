@@ -25,13 +25,14 @@ export const Button = styled.button`
   background-color: ${({ theme }) => theme.color.blue};
   border: 1px ${({ theme }) => theme.color.darkGray};
   border-radius: 4px;
+  transition: 0.5s;
 
     &:hover {
       box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
     }
 
     &:active {
-    box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+      box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
     }
 `
 
