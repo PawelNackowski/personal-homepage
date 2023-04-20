@@ -1,4 +1,5 @@
 import { Container } from "./common/Container";
+import { Footer } from "./features/Footer";
 import { Header } from "./features/Header";
 import { FeatureList } from "./features/Lists/FeatureList";
 import { SkillsList } from "./features/Lists/SkillsList";
@@ -16,6 +17,7 @@ function App() {
         body={<FeatureList />}
       />
       <ProjectSection />
+      <Footer />
     </>
   );
 }
