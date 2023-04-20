@@ -9,5 +9,10 @@ export const theme = {
     gray: "#E5E5E5",
     darkerGray:"#d1d5da4d",
     black: "#252525",
+  },
+  breakpoints: {
+    mobile: 767,
+    tablet: 1023,
+    mobileMin: 320,
   }
-}
+};
