@@ -1,6 +1,6 @@
-import { Button, Header, Text, Wrapper } from "./styled";
-import Message from "../../../common/images/Message.svg"
+import { ButtonLink, Header, MessageIcon, Text, Wrapper } from "./styled";
 import { ThemeButton } from "../ThemeButton";
+import { description, name, email } from "../../../namePlate";
 
 export const Content = () => {
   return (
@@ -9,16 +9,15 @@ export const Content = () => {
         <ThemeButton />
         THIS IS
         <Header>
-          Paweł Nackowski
+          {name}
         </Header>
         <Text>
-          👨🏻 💻 I'm a passionate Frontend Developer, i feel great in React.<br />
-          Currently looking for new job offers and interesting projects.
+          {description}
         </Text>
-        <Button>
-          <img src={Message} alt="logo"></img>
+        <ButtonLink wide title={email} href={`mailto:${email}`}>
+          <MessageIcon/>
           Hire Me
-        </Button>
+        </ButtonLink>
       </Wrapper>
     </>
   )
