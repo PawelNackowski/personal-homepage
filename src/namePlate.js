@@ -1,12 +1,12 @@
 export const name = "Paweł Nackowski";
 
 export const description = (
-    <>
-    👨🏻 💻 I'm a passionate Frontend Developer, 
-    i feel great in React. Currently looking 
+  <>
+    👨🏻 💻 I'm a passionate Frontend Developer,
+    i feel great in React. Currently looking
     for new job offers and interesting projects.
-    </>
-  );
+  </>
+);
 
 export const skillsHeader = "My skillset includes 🛠️";
 export const skills = [
@@ -32,6 +32,15 @@ export const skills = [
   "JavaScript: ES6+",
   "Git",
   "CSS Flexbox",
-  ];
+];
 
+export const goalsHeader = "What I want to learn next 🚀";
+export const goals = [
+  "TypeScript",
+  "React Native",
+  "Tanstack Query",
+  "Next.js",
+  "React Context",
+  "JS Classes",
+];
 export const email = "pawelnackowski@gmail.com";
