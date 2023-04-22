@@ -1,4 +1,4 @@
-import { ThemeModeButton, ModeButton, Wrapper, ToggleLight } from './styled';
+import { ThemeModeButton, ModeButton, Wrapper } from './styled';
 
 export const ThemeButton = () => {
   return (
