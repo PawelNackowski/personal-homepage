@@ -4,7 +4,7 @@ import { Header } from "./features/Header";
 import { FeatureList } from "./features/Lists/FeatureList";
 import { SkillsList } from "./features/Lists/SkillsList";
 import { ProjectSection } from "./features/Projects";
-import { goals, goalsHeader, skillsHeader } from "./namePlate";
+import { goalsHeader, skillsHeader } from "./namePlate";
 
 function App() {
 
