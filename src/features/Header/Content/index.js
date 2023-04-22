@@ -14,7 +14,7 @@ export const Content = () => {
         <Text>
           {description}
         </Text>
-        <ButtonLink wide title={email} href={`mailto:${email}`}>
+        <ButtonLink title={email} href={`mailto:${email}`}>
           <MessageIcon/>
           Hire Me
         </ButtonLink>
