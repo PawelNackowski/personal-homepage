@@ -1,8 +1,9 @@
 import styled from "styled-components";
-import instagram from "../../common/images/Instagram.svg";
-import github from "../../common/images/Github.svg";
-import facebook from "../../common/images/Facebook.svg";
-import linkedIN from "../../common/images/LinkedIN.svg";
+import { ReactComponent as instagram } from "../../common/images/Instagram.svg";
+import { ReactComponent as github } from "../../common/images/Github.svg";
+import { ReactComponent as linkedIN } from "../../common/images/LinkedIN.svg";
+import { ReactComponent as facebook } from "../../common/images/Facebook.svg";
+
 
 export const Container = styled.div`
   margin: 120px 0 109px 0;
@@ -22,42 +23,45 @@ export const Content = styled.div`
 
 export const Icon = styled.div`
   display: flex;
+  gap: 24px;
   margin-top: 56px;
 `
 
-export const Instagram = styled.div`
-display: block;
-  background-image: url(${instagram});
-  background-repeat: no-repeat ;
-  background-size: 45px;
+export const Instagram = styled(instagram)`
   width: 45px;
-  height: 45px;
-  margin-right: 24px;
+  height: auto;
+  filter: grayscale(100%) brightness(50%);
+
+  :hover{
+    filter: grayscale(0%);
+  }
 `
-export const Github = styled.div`
-display: block;
-  background-image: url(${github});
-  background-repeat: no-repeat ;
-  background-size: 45px;
+export const Github = styled(github)`
   width: 45px;
-  height: 45px;
-  margin-right:24px;
+  height: auto;
+    filter: grayscale(100%) brightness(50%);
+
+  :hover{
+    filter: grayscale(0%);
+  }
 `
-export const LinkedIN = styled.div`
-display: block;
-  background-image: url(${linkedIN});
-  background-repeat: no-repeat ;
-  background-size: 45px;
+export const LinkedIN = styled(linkedIN)`
   width: 45px;
-  height: 45px;
-`
-export const Facebook = styled.div`
-display: block;
-  background-image: url(${facebook});
-  background-repeat: no-repeat ;
-  background-size: 45px;
-  width: 45px;
-  height: 45px;
-`
+  height: auto;
+  filter: grayscale(100%) brightness(50%);
 
 
+  :hover{
+    filter: grayscale(0%);
+  }
+`
+export const Facebook = styled(facebook)`
+  background-size: 45px;
+  width: 45px;
+  height: auto;
+    filter: grayscale(100%) brightness(50%);
+
+  :hover{
+    filter: grayscale(0%)brightness(100%);
+  }
+`
