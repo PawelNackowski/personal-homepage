@@ -4,17 +4,19 @@ import { Header } from "./features/Header";
 import { FeatureList } from "./features/Lists/FeatureList";
 import { SkillsList } from "./features/Lists/SkillsList";
 import { ProjectSection } from "./features/Projects";
+import { skillsHeader } from "./namePlate";
 
 function App() {
+
   return (
     <>
       <Header />
       <Container
-        title={"My skillset includes 🛠️"}
-        body={<SkillsList />} />
+        title={skillsHeader}
+        body={<SkillsList/>}/>
       <Container
         title={"What I want to learn next 🚀"}
-        body={<FeatureList />}
+        body={""}
       />
       <ProjectSection />
       <Footer />
