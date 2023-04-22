@@ -1,3 +1,4 @@
+import { email, footerContent } from "../../namePlate"
 import { Container, Content, Facebook, Github, Header, Icon, Instagram, LinkedIN} from "./styled"
 
 export const Footer = () => {
@@ -5,11 +6,9 @@ export const Footer = () => {
     <>
       <Container>
         LETS TALK!
-        <Header>pawelnackowski@gmail.com</Header>
+        <Header>{email}</Header>
         <Content>
-          I'm always open to new projects whenever I have the time. If you have a <br/>
-          website, dashboard or mobile app in mind and need some help to<br/>
-          make your ideas come to life, feel free to conatct me<br/>
+          {footerContent}
         </Content>
         <Icon>
           <Github />
