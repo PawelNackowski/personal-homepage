@@ -44,3 +44,11 @@ export const goals = [
   "JS Classes",
 ];
 export const email = "pawelnackowski@gmail.com";
+
+export const footerContent = (
+  <>
+    I'm always open to new projects whenever I have the time. If you have a <br />
+    website, dashboard or mobile app in mind and need some help to<br />
+    make your ideas come to life, feel free to conatct me<br />
+  </>
+);
