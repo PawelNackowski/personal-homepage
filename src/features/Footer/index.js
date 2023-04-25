@@ -1,21 +1,21 @@
+import { Socjals } from "./Socjals"
 import { email, footerContent } from "../../namePlate"
-import { Container, Content, Facebook, Github, Header, Icon, Instagram, LinkedIN} from "./styled"
+import { Container, Content, Header, HeaderLink } from "./styled"
 
 export const Footer = () => {
   return (
     <>
       <Container>
         LETS TALK!
-        <Header>{email}</Header>
+        <Header>
+          <HeaderLink href={`mailto:${email}`} >
+            {email}
+          </HeaderLink>
+        </Header>
         <Content>
           {footerContent}
         </Content>
-        <Icon>
-          <Github />
-          <Facebook />
-          <LinkedIN />
-          <Instagram />
-        </Icon>
+        <Socjals />
       </Container>
     </>
   )
