@@ -1,5 +1,5 @@
-import { Tile } from "../../common/Tile"
-import { Wrapper } from "./styled"
+import { Tile } from "./Tile";
+import { Wrapper } from "./styled";
 
 export const ProjectSection = () => {
   return (
@@ -31,5 +31,5 @@ export const ProjectSection = () => {
         />
       </Wrapper>
     </>
-  )
-}
+  );
+};
