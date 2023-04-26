@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import authorPhoto from "../../../common/Container/authorPhoto.jpg";
+import authorPhoto from "./authorPhoto.jpg";
 
 export const Photo = styled.div`
   background-image: url(${authorPhoto});
@@ -8,4 +8,4 @@ export const Photo = styled.div`
   width: 398px;
   height: 398px;
   border-radius: 100%;
-`
+`;
