@@ -38,17 +38,22 @@ export const goalsHeader = "What I want to learn next 🚀";
 export const goals = [
   "TypeScript",
   "React Native",
-  "Tanstack Query",
+  "TanStack Query",
   "Next.js",
   "React Context",
   "JS Classes",
 ];
+
 export const email = "pawelnackowski@gmail.com";
+export const instagram = "https://www.instagram.com/pawe_n";
+export const github = "https://github.com/PawelNackowski";
+export const facebook = "https://www.facebook.com/pawel.nackowski";
+export const linkedIn = "https://www.linkedin.com/in/pawelnackowski";
 
 export const footerContent = (
   <>
-    I'm always open to new projects whenever I have the time. If you have a <br />
-    website, dashboard or mobile app in mind and need some help to<br />
-    make your ideas come to life, feel free to conatct me<br />
+    I'm always open to new projects whenever I have the time. If you have a <br/>
+    website, dashboard or mobile app in mind and need some help to<br/>
+    make your ideas come to life, feel free to contact me<br/>
   </>
 );
