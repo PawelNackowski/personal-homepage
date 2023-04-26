@@ -29,7 +29,7 @@ export const ButtonLink = styled.a`
   margin-top: 32px;
   padding: 12px;
   background-color: ${({theme}) => theme.color.blue};
-  border: 1px ${({theme}) => theme.color.darkGray};
+  border: 1px ${({theme}) => theme.color.darkerGray};
   border-radius: 4px;
   transition: 0.5s;
 
