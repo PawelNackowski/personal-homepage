@@ -34,10 +34,10 @@ export const ButtonLink = styled.a`
   transition: 0.5s;
 
   &:hover {
-    box-shadow: 2px -2px 0px #8CC2FF, -2px 2px 0px #8CC2FF, 2px 2px 0px #8CC2FF, -2px -2px 0px #8CC2FF;
+    box-shadow: 2px -2px 0 #8CC2FF, -2px 2px 0 #8CC2FF, 2px 2px 0 #8CC2FF, -2px -2px 0 #8CC2FF;
   }
 
   &:active {
-    box-shadow: inset 0px 2px 0px rgba(20, 70, 32, 0.2);
+    box-shadow: inset 0 2px 0 rgba(20, 70, 32, 0.2);
   }
 `
