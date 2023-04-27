@@ -1,0 +1,31 @@
+import axios from "axios";
+
+import { useEffect, useState } from "react";
+import { Error } from "./Error";
+
+const useRepos = () => {
+  const [repos, setRepos] = useState([]);
+  const [error, setError] = useState(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setIsLoading(true);
+        const response = await axios.get(
+          "https://api.github.com/users/pawelnackowski/repos"
+        );
+        setRepos(response.data);
+      } catch (error) {
+        setError(<Error />);
+      }
+      setTimeout(() => {
+        setIsLoading(false);
+      }, 500);
+    };
+    fetchData();
+  }, []);
+  return { repos, error, isLoading };
+};
+
+export default useRepos;
