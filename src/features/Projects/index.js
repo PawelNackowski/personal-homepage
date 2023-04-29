@@ -1,41 +1,26 @@
-import { SkillsContainer, StyledLink, StyledTile, Wrapper } from "./styled";
-import { Loading } from "./Loading";
-import { Error } from "./Error";
-import useRepos from "./useReps";
+import { SkillsContainer, Wrapper } from "./styled";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchPortfolio, selectPortfolio, selectPortfolioState } from "./portfolioSlice";
+import { useEffect } from "react";
+import { Project } from "./porfolioState";
 
 export const ProjectSection = () => {
-  const { repos, isLoading, error } = useRepos();
+  const dispatch = useDispatch();
+  const portfolioState = useSelector(selectPortfolioState);
+  const portfolio = useSelector(selectPortfolio);
+
+  useEffect(() => {
+    dispatch(fetchPortfolio());
+  }, [dispatch]);
   return (
 
     <Wrapper>
       Portfolio <br />
       My recent projects
-      {isLoading ? (
-        <Loading />
-      ) : error ? (
-        <Error />
-      ) : (
-        <SkillsContainer>
-          {repos.map((repo) => (
-            <StyledTile key={repo.id}>
-              <div>{repo.name}</div>
-              <div>{repo.description}</div>
-              <div>
-                Demo:
-                <StyledLink href={repo.homepage} target="_blank">
-                  {repo.homepage}
-                </StyledLink>
-              </div>
-              <div>
-                Code:
-                <div href={repo.html_url} target="_blank">
-                  {repo.html_url}
-                </div>
-              </div>
-            </StyledTile>
-          ))}
-        </SkillsContainer>
-      )}
+      <Project
+        portfolio={portfolio}
+        portfolioState={portfolioState}
+      />
     </Wrapper>
   );
 };
