@@ -5,15 +5,15 @@ import { FeatureList } from "./features/Lists/FeatureList";
 import { SkillsList } from "./features/Lists/SkillsList";
 import { ProjectSection } from "./features/Projects";
 import { goalsHeader, skillsHeader } from "./namePlate";
+import React from "react";
 
 function App() {
-
   return (
     <>
       <Header />
       <Container
         title={skillsHeader}
-        body={<SkillsList/>}/>
+        body={<SkillsList />} />
       <Container
         title={goalsHeader}
         body={<FeatureList />}
