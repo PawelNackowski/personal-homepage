@@ -1,14 +1,29 @@
-import { Descroption, Header, Link, Wrapper } from "./styled"
+import { Descroption, Header, Link, List } from "./styled";
+import { StyledTile } from "../styled";
 
-export const Tile = ({ title, content, linkDemo, linkRepo }) => {
+export const Tile = ({ portfolio }) => {
+  const HIDDEN_REPOS = [
+    "PawelNackowski"
+  ];
   return (
-    <>
-      <Wrapper>
-        <Header>{title}</Header>
-        <Descroption>{content}</Descroption>
-        <Link>Demo: {linkDemo}</Link>
-        <Link>Repo: {linkRepo}</Link>
-      </Wrapper>
-    </>
-  )
-}
+    <List>
+      {portfolio.map(({ id, name, description, homepage, html_url }) => (
+        !!HIDDEN_REPOS.includes(name) ? null : (
+          <StyledTile key={id}>
+            <Header>{name}</Header>
+            <Descroption>{description}</Descroption>
+            {!!homepage && (
+              <div>
+                Demo:
+                <Link href={homepage} target="_blank" rel="noreferrer"> {homepage}</Link>
+              </div>
+            )}
+            <div>
+              Code:
+              <Link href={html_url} target="_blank" rel="noreferrer"> {html_url} </Link>
+            </div>
+          </StyledTile>
+        )))}
+    </List>
+  );
+};
