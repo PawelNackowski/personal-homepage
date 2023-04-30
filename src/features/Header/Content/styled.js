@@ -3,14 +3,25 @@ import { ReactComponent as message } from "../Message.svg";
 
 export const Wrapper = styled.div`
   align-self: center;
+  font-size: 16px;
+
 `;
 
 export const Header = styled.h1`
   color: ${({ theme }) => theme.color.black};
+  font-size: 38px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 22px;
+  }
 `;
 
 export const Text = styled.div`
   font-size: 20px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 17px;
+  }
 `;
 
 export const MessageIcon = styled(message)`
@@ -39,5 +50,12 @@ export const ButtonLink = styled.a`
 
   &:active {
     box-shadow: inset 0 2px 0 rgba(20, 70, 32, 0.2);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 18px;
+    width: 138px;
+    height: 46px;
+    padding: 12px;
   }
 `;

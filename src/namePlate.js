@@ -2,9 +2,10 @@ export const name = "Paweł Nackowski";
 
 export const description = (
   <>
-    👨🏻 💻 I'm a passionate Frontend Developer,
-    i feel great in React. Currently looking
-    for new job offers and interesting projects.
+    👨🏻 💻 If you are looking for a budding front-end React developer who is determined to gain experience and develop his
+    skills, then I am the right person to contact. I have a solid knowledge of HTML, CSS and JavaScript and the basics
+    of React, and I am ready to learn new technologies. Contact me to get to know me better and find out how I can
+    contribute to the development of your project!
   </>
 );
 
@@ -31,7 +32,7 @@ export const skills = [
   "CSS Grid",
   "JavaScript: ES6+",
   "Git",
-  "CSS Flexbox",
+  "CSS Flexbox"
 ];
 
 export const goalsHeader = "What I want to learn next 🚀";
@@ -41,7 +42,7 @@ export const goals = [
   "TanStack Query",
   "Next.js",
   "React Context",
-  "JS Classes",
+  "JS Classes"
 ];
 
 export const email = "pawelnackowski@gmail.com";
@@ -52,8 +53,8 @@ export const linkedIn = "https://www.linkedin.com/in/pawelnackowski";
 
 export const footerContent = (
   <>
-    I'm always open to new projects whenever I have the time. If you have a <br/>
-    website, dashboard or mobile app in mind and need some help to<br/>
-    make your ideas come to life, feel free to contact me<br/>
+    I'm always open to new projects whenever I have the time. If you have a <br />
+    website, dashboard or mobile app in mind and need some help to<br />
+    make your ideas come to life, feel free to contact me<br />
   </>
 );
