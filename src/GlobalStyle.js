@@ -16,5 +16,6 @@ export const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.color.veryLightBlue};
     max-width: 1216px;
     margin: 0 auto;
+    word-break: break-word;
   }
 `;
