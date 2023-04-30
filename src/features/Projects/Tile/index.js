@@ -1,5 +1,5 @@
-import { Descroption, Header, Link, List } from "./styled";
-import { StyledTile } from "../styled";
+import { Description, Header, Link, List, WrapperLink } from "./styled";
+import { StyledTile } from "./styled";
 
 export const Tile = ({ portfolio }) => {
   const HIDDEN_REPOS = [
@@ -11,17 +11,17 @@ export const Tile = ({ portfolio }) => {
         !!HIDDEN_REPOS.includes(name) ? null : (
           <StyledTile key={id}>
             <Header>{name}</Header>
-            <Descroption>{description}</Descroption>
+            <Description>{description}</Description>
             {!!homepage && (
-              <div>
+              <WrapperLink>
                 Demo:
-                <Link href={homepage} target="_blank" rel="noreferrer"> {homepage}</Link>
-              </div>
+                <Link href={homepage} target="_blank" rel="noreferrer">Project Demo</Link>
+              </WrapperLink>
             )}
-            <div>
+            <WrapperLink>
               Code:
-              <Link href={html_url} target="_blank" rel="noreferrer"> {html_url} </Link>
-            </div>
+              <Link href={html_url} target="_blank" rel="noreferrer"> Link to code</Link>
+            </WrapperLink>
           </StyledTile>
         )))}
     </List>
