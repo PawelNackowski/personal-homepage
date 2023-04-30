@@ -6,7 +6,7 @@ export const Content = () => {
   return (
     <>
       <Wrapper>
-        <ThemeButton />
+        {/*<ThemeButton />*/}
         THIS IS
         <Header>
           {name}
@@ -15,10 +15,10 @@ export const Content = () => {
           {description}
         </Text>
         <ButtonLink title={email} href={`mailto:${email}`}>
-          <MessageIcon/>
+          <MessageIcon />
           Hire Me
         </ButtonLink>
       </Wrapper>
     </>
-  )
+  );
 };
