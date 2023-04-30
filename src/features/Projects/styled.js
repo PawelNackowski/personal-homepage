@@ -14,6 +14,11 @@ export const Header = styled.div`
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.black};
   margin-bottom: 8px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 18px;
+    line-height: 22px;
+  }
 `;
 
 export const SubHeader = styled.div`
@@ -22,6 +27,10 @@ export const SubHeader = styled.div`
   line-height: 140%;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.black};
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 17px;
+  }
 `;
 
 export const GitHubRepoIcon = styled(GitHubIcon)`
