@@ -1,6 +1,7 @@
-import {Socials} from "./Socjals"
-import {email, footerContent} from "../../namePlate"
-import {Container, Content, Header, HeaderLink} from "./styled"
+import { Socials } from "../Socjals";
+import { email, footerContent } from "../../namePlate";
+import { Container, Content, Header, HeaderLink } from "./styled";
+
 export const Footer = () => {
   return (
     <>
@@ -14,8 +15,8 @@ export const Footer = () => {
         <Content>
           {footerContent}
         </Content>
-        <Socials/>
+        <Socials />
       </Container>
     </>
-  )
-}
+  );
+};
