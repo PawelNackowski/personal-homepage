@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const List = styled.div`
-  max-width: 1215px;
   margin: 24px 0 120px;
   width: 100%;
   display: grid;
