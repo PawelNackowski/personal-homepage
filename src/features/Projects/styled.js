@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ReactComponent as GitHubIcon } from "../Socjals/Github.svg";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -21,4 +22,10 @@ export const SubHeader = styled.div`
   line-height: 140%;
   letter-spacing: 0.05em;
   color: ${({ theme }) => theme.color.black};
+`;
+
+export const GitHubRepoIcon = styled(GitHubIcon)`
+  width: 40px;
+  height: auto;
+  margin-bottom: 12px;
 `;
