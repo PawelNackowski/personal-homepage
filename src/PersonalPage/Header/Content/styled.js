@@ -4,7 +4,6 @@ import { ReactComponent as message } from "../Message.svg";
 export const Wrapper = styled.div`
   align-self: center;
   font-size: 16px;
-
 `;
 
 export const Header = styled.h1`
