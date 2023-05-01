@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import rootSaga from "./rootSaga";
-import portfolioReducers from "./features/Projects/portfolioSlice";
+import portfolioReducers from "./PersonalPage/Projects/portfolioSlice";
 
 const sagaMiddleware = createSagaMiddleware();
 

@@ -18,6 +18,7 @@ export const Header = styled.h1`
 
 export const Text = styled.div`
   font-size: 20px;
+  line-height: 140%;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 17px;
