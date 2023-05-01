@@ -7,6 +7,9 @@ export const Wrapper = styled.div`
   align-items: center;
   margin: 88px 16px 0 16px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    margin: 56px 16px 0 16px;
+  }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
     margin: 48px 16px 0 16px;
   }
