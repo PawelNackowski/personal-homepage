@@ -9,6 +9,10 @@ export const List = styled.div`
   grid-gap: 32px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
     grid-template-columns: 1fr;
     grid-gap: 16px;
   }

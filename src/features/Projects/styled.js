@@ -16,6 +16,10 @@ export const Header = styled.div`
   color: ${({ theme }) => theme.color.black};
   margin-bottom: 8px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
+    font-size: 26px;
+    line-height: 22px;
+  }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 18px;
     line-height: 22px;
@@ -30,7 +34,7 @@ export const SubHeader = styled.div`
   color: ${({ theme }) => theme.color.black};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
-    font-size: 17px;
+    font-size: 18px;
   }
 `;
 
@@ -38,4 +42,11 @@ export const GitHubRepoIcon = styled(GitHubIcon)`
   width: 40px;
   height: auto;
   margin-bottom: 12px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    width: 36px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
+    width: 30px;
+  }
 `;
