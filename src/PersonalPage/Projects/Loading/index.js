@@ -1,7 +1,13 @@
+import { Loader, StyledText, Wrapper } from "./styled";
+
 export const Loading = () => {
   return (
-    <div>
-      Loading...
-    </div>
+    <Wrapper>
+      <StyledText>
+        Please wait, projects are being loaded...
+      </StyledText>
+      <Loader />
+    </Wrapper>
+
   );
 };
