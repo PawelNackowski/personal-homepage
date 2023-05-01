@@ -12,6 +12,9 @@ export const Header = styled.h1`
   font-size: 38px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 28px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
     font-size: 22px;
   }
 `;
