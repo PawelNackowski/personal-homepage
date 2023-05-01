@@ -18,6 +18,9 @@ export const StyledText = styled.div`
   line-height: 140%;
   color: ${({ theme }) => theme.color.black};
 
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 16px;
+  }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
     font-size: 14px;
   }
@@ -39,6 +42,13 @@ export const Loader = styled.div`
     100% {
       transform: rotate(360deg);
     }
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    width: 100px;
+    height: 100px;
+    margin: 36px;
+    border: 10px solid ${({ theme }) => theme.color.gray};
+    border-top: 8px solid ${({ theme }) => theme.color.blue};
   }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
     width: 80px;
