@@ -4,7 +4,7 @@ const portfolioSlice = createSlice({
   name: "portfolio",
   initialState: {
     portfolio: [],
-    portfolioState: "loading"
+    portfolioState: "null"
   },
   reducers: {
     fetchPortfolio: () => ({
