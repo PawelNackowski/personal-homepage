@@ -9,15 +9,15 @@ export const Header = styled.h2`
 `;
 export const HeaderLink = styled.a`
   font-size: 32px;
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.colors.footer.primary};
   text-decoration: none;
 
   :hover {
-    color: ${({ theme }) => theme.color.blue};
+    color: ${({ theme }) => theme.colors.footer.hover};
   }
 
   :active {
-    color: ${({ theme }) => theme.color.lightBlue};
+    color: ${({ theme }) => theme.colors.footer.active};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
@@ -29,7 +29,7 @@ export const HeaderLink = styled.a`
 `;
 export const Content = styled.div`
   font-size: 18px;
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.colors.footer.text};
   line-height: 25px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

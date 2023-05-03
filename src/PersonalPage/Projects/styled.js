@@ -13,7 +13,7 @@ export const Header = styled.div`
   font-size: 30px;
   line-height: 36px;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.colors.header.primary};
   margin-bottom: 8px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
@@ -31,7 +31,7 @@ export const SubHeader = styled.div`
   font-size: 20px;
   line-height: 140%;
   letter-spacing: 0.05em;
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.colors.header.primary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 18px;

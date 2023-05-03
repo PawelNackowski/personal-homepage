@@ -7,7 +7,7 @@ export const ListItem = styled.li`
 
   ::before {
     content: "•";
-    color: ${({ theme }) => theme.color.blue};
+    color: ${({ theme }) => theme.colors.list.dot};
     font-weight: bold;
     display: inline-block;
     width: 1em;

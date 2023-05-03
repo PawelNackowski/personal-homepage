@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: ${({ theme }) => theme.colors.section.background};
   padding: 32px;
   margin: 64px 14px 0 14px;
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
@@ -14,10 +14,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Header = styled.h2`
-  color: ${({ theme }) => theme.color.black};
+  color: black;
   margin-top: 0;
   font-size: 30px;
-  border-bottom: 1px solid ${({ theme }) => theme.color.darkerGray};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.section.underline};
   padding-bottom: 15px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

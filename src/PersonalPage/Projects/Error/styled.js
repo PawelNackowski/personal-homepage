@@ -30,7 +30,7 @@ export const DangerIcon = styled(Danger)`
 export const StyledHead = styled.h2`
   text-align: center;
   font-size: 24px;
-  color: ${({ theme }) => theme.color.black};
+  color: black;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 22px;
@@ -44,7 +44,7 @@ export const StyledContent = styled.div`
   text-align: center;
   font-size: 20px;
   line-height: 140%;
-  color: ${({ theme }) => theme.color.black};
+  color: black;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 18px;
@@ -57,16 +57,16 @@ export const StyledContent = styled.div`
 export const Button = styled.a`
   border: none;
   border-radius: 4px;
-  background-color: ${({ theme }) => theme.color.blue};
+  background-color: ${({ theme }) => theme.colors.buttonLink.background};
   padding: 12px 16px;
   font-size: 20px;
   line-height: 24px;
-  color: ${({ theme }) => theme.color.white};
+  color: white;
   margin: 32px 0 140px 0;
   text-decoration: none;
 
   :hover {
-    background-color: ${({ theme }) => theme.color.lightBlue};
+    background-color: ${({ theme }) => theme.colors.buttonLink.hover};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {

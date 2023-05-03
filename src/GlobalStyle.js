@@ -10,10 +10,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${({ theme }) => theme.color.lightGray};
+    background-color: ${({ theme }) => theme.colors.content.background};
     font-family: 'Inter', sans-serif;
     font-size: 12px;
-    color: ${({ theme }) => theme.color.veryLightBlue};
+    color: ${({ theme }) => theme.colors.content.text};
     max-width: 1216px;
     margin: 0 auto;
     letter-spacing: 0.05em;

@@ -2,16 +2,16 @@ import styled from "styled-components";
 
 export const IconLink = styled.a`
   & > svg > path {
-    fill: ${({ theme }) => theme.color.black};
+    fill: ${({ theme }) => theme.colors.socials.primary};
     transition: 0.2s;
   }
 
   &:hover > svg > path {
-    fill: ${({ theme }) => theme.color.blue};
+    fill: ${({ theme }) => theme.colors.socials.hover};
   }
 
   &:active > svg > path {
-    fill: ${({ theme }) => theme.color.lightBlue};
+    fill: ${({ theme }) => theme.colors.socials.active};
   }
 `;
 export const StyledSocials = styled.div`

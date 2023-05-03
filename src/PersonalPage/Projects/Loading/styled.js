@@ -19,7 +19,7 @@ export const StyledText = styled.div`
   text-align: center;
   font-size: 20px;
   line-height: 140%;
-  color: ${({ theme }) => theme.color.black};
+  color: black;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 16px;
@@ -33,8 +33,8 @@ export const Loader = styled.div`
   width: 160px;
   height: 160px;
   margin: 48px;
-  border: 12px solid ${({ theme }) => theme.color.gray};
-  border-top: 12px solid ${({ theme }) => theme.color.blue};
+  border: 12px solid ${({ theme }) => theme.colors.loader.border};
+  border-top: 12px solid ${({ theme }) => theme.colors.loader.animation};
   border-radius: 50%;
   animation: spin 1s linear infinite;
   transition: 0.5s;
@@ -50,14 +50,14 @@ export const Loader = styled.div`
     width: 100px;
     height: 100px;
     margin: 36px;
-    border: 10px solid ${({ theme }) => theme.color.gray};
-    border-top: 8px solid ${({ theme }) => theme.color.blue};
+    border: 10px solid gray;
+    border-top: 8px solid blue;
   }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
     width: 80px;
     height: 80px;
     margin: 36px;
-    border: 8px solid ${({ theme }) => theme.color.gray};
-    border-top: 8px solid ${({ theme }) => theme.color.blue};
+    border: 8px solid gray;
+    border-top: 8px solid blue;
   }
 `;

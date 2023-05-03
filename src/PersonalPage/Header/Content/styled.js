@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Header = styled.h1`
-  color: ${({ theme }) => theme.color.black};
+  color: ${({ theme }) => theme.colors.header.primary};
   font-size: 38px;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
@@ -35,15 +35,15 @@ export const ButtonLink = styled.a`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: ${({ theme }) => theme.color.white};
+  color: ${({ theme }) => theme.colors.buttonLink.text};
   font-size: 20px;
   text-decoration: none;
   width: 154px;
   height: 49px;
   margin-top: 32px;
   padding: 12px;
-  background-color: ${({ theme }) => theme.color.blue};
-  border: 1px ${({ theme }) => theme.color.darkerGray};
+  background-color: blue;
+  border: 1px teal;
   border-radius: 4px;
   transition: 0.5s;
 

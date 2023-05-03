@@ -21,7 +21,7 @@ export const List = styled.div`
 export const Header = styled.h2`
   margin: 0;
   font-size: 24px;
-  color: ${({ theme }) => theme.color.blue};
+  color: ${({ theme }) => theme.colors.tile.header};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 16px;
@@ -38,16 +38,16 @@ export const Description = styled.div`
 `;
 
 export const Link = styled.a`
-  color: ${({ theme }) => theme.color.blue};
+  color: ${({ theme }) => theme.colors.tile.link};
   margin-left: 14px;
   text-decoration: none;
-  border-bottom: 1px solid ${({ theme }) => theme.color.gray};
+  border-bottom: 1px solid ${({ theme }) => theme.colors.tile.border};
   transition: 0.5s;
 }
 
 &:hover {
-  color: ${({ theme }) => theme.color.lightBlue};
-  border-color: ${({ theme }) => theme.color.lightBlue};
+  color: ${({ theme }) => theme.colors.tile.linkHover};
+  border-color: ${({ theme }) => theme.colors.tile.borderHover};
 
 }
 `;
@@ -64,7 +64,7 @@ export const WrapperLink = styled.div`
 export const StyledTile = styled.div`
   display: grid;
   grid-template-rows: auto 1fr auto;
-  background-color: ${({ theme }) => theme.color.white};
+  background-color: white;
   border: 6px solid rgba(209, 213, 218, 0.3);
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;

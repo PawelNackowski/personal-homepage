@@ -6,7 +6,7 @@ export const Content = () => {
   return (
     <>
       <Wrapper>
-        {/*<ThemeButton />*/}
+        <ThemeButton />
         THIS IS
         <Header>
           {name}
