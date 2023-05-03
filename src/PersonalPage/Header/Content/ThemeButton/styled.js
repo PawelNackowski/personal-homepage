@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as toggleLight } from "../toggleLight.svg";
+import { ReactComponent as toggleLight } from "../../toggleLight.svg";
 
 export const ThemeModeButton = styled.div`
   display: flex;
