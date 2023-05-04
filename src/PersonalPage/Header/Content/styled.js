@@ -42,7 +42,7 @@ export const ButtonLink = styled.a`
   height: 49px;
   margin-top: 32px;
   padding: 12px;
-  background-color: blue;
+  background-color: ${({ theme }) => theme.colors.buttonLink.background};
   border: 1px teal;
   border-radius: 4px;
   transition: 0.5s;

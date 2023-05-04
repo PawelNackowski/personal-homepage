@@ -30,7 +30,8 @@ export const DangerIcon = styled(Danger)`
 export const StyledHead = styled.h2`
   text-align: center;
   font-size: 24px;
-  color: black;
+  letter-spacing: 0.05em;
+  color: ${({ theme }) => theme.colors.error.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 22px;
@@ -43,8 +44,8 @@ export const StyledHead = styled.h2`
 export const StyledContent = styled.div`
   text-align: center;
   font-size: 20px;
-  line-height: 140%;
-  color: black;
+  letter-spacing: 0.05em;
+  color: ${({ theme }) => theme.colors.error.text};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 18px;

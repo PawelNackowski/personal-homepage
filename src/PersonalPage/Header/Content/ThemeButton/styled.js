@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { ReactComponent as toggleLight } from "../../toggleLight.svg";
+import styled, { css } from "styled-components";
+import { ReactComponent as toggleLight } from "./toggleLight.svg";
 
 export const ThemeModeButton = styled.div`
   display: flex;
@@ -19,17 +19,20 @@ export const Wrapper = styled.div`
   cursor: pointer;
 `;
 
-export const ModeButton = styled(toggleLight)`
-  align-self: flex-start;
-  width: 20px;
-  height: 20px;
-  background-color: ${({ theme }) => theme.colors.switchTheme.backgroundIcon};
-  border-radius: 50%;
+export const ButtonWrapper = styled.div`
+  border-radius: 100%;
+  display: flex;
+  background: ${({ theme }) => theme.colors.switchTheme.backgroundIcon};
   padding: 4px;
   margin: 2px;
-  transition: 0.3s;
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s;
 
-  :active {
-    transform: translateX(110%);
-  }
+  ${({ moveToRight }) => moveToRight && css`
+    transform: translateX(110%)`};
+`;
+export const ModeButton = styled(toggleLight)`
+  align-self: center;
+  fill: ${({ theme }) => theme.colors.switchTheme.icon};
 `;

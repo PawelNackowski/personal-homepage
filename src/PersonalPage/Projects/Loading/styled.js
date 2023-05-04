@@ -19,7 +19,7 @@ export const StyledText = styled.div`
   text-align: center;
   font-size: 20px;
   line-height: 140%;
-  color: black;
+  color: ${({ theme }) => theme.colors.loader.textPrimary};
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 16px;

@@ -14,11 +14,12 @@ export const Wrapper = styled.div`
 `;
 
 export const Header = styled.h2`
-  color: black;
+  color: ${({ theme }) => theme.colors.section.header};
   margin-top: 0;
   font-size: 30px;
   border-bottom: 1px solid ${({ theme }) => theme.colors.section.underline};
   padding-bottom: 15px;
+  letter-spacing: 0.05em;
 
   @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     font-size: 22px;
