@@ -12,9 +12,9 @@ function* watchFetchPortfolioHandler() {
   } catch (error) {
     yield put(fetchPortfolioError());
   }
-  ;
-};
+
+}
 
 export function* watchFetchPortfolio() {
   yield takeLatest(fetchPortfolio.type, watchFetchPortfolioHandler);
-};
+}
