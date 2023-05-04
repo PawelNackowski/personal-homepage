@@ -14,5 +14,5 @@ export const Project = ({ portfolioState, portfolio }) => {
     default:
       return <Error />;
   }
-  ;
+
 };
