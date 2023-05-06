@@ -1,6 +1,6 @@
 import { Description, Header, Link, List, WrapperLink } from "./styled";
 import { StyledTile } from "./styled";
-import { isError, useQuery } from "@tanstack/react-query";
+import { useQuery } from "@tanstack/react-query";
 import { fetchPortfolio } from "../fetchPortfolio";
 import { Loading } from "../Loading";
 import { Error } from "../Error";
