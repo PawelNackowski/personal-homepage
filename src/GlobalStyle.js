@@ -18,6 +18,6 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0 auto;
     letter-spacing: 0.05em;
     word-break: break-word;
-    transition: 0.3s;
+    transition: background-color 0.5s;
   }
 `;
