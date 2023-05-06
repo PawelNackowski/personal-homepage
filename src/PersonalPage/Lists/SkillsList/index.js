@@ -1,14 +1,12 @@
-import { skills } from "../../../namePlate"
-import { ListItem } from "../styled"
+import { skills } from "../../../namePlate";
+import { ListItem } from "../styled";
 
-export const SkillsList = () => {
-  return (
-    <>
-      {skills.map((skill) => (
-        <ListItem key={skill}>
-          {skill}
-          </ListItem>
-      ))}
-    </>
-  )
-}
+export const SkillsList = () => (
+  <>
+    {skills.map((skill) => (
+      <ListItem key={skill}>
+        {skill}
+      </ListItem>
+    ))}
+  </>
+);

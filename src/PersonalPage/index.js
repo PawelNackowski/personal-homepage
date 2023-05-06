@@ -7,19 +7,17 @@ import { ProjectSection } from "./Projects";
 import { Footer } from "./Footer";
 import React from "react";
 
-export const PersonalPage = () => {
-  return (
-    <>
-      <Header />
-      <Section
-        title={skillsHeader}
-        body={<SkillsList />} />
-      <Section
-        title={goalsHeader}
-        body={<FeatureList />}
-      />
-      <ProjectSection />
-      <Footer />
-    </>
-  );
-};
+export const PersonalPage = () => (
+  <>
+    <Header />
+    <Section
+      title={skillsHeader}
+      body={<SkillsList />} />
+    <Section
+      title={goalsHeader}
+      body={<FeatureList />}
+    />
+    <ProjectSection />
+    <Footer />
+  </>
+);
