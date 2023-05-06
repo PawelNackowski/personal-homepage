@@ -1,6 +1,6 @@
 import { Wrapper, Header, Body } from "./styled";
 
-export const Container = ({ title, body }) => (
+export const Section = ({ title, body }) => (
   <Wrapper>
     <Header>
       {title}

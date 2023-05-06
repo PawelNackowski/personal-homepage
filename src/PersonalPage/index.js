@@ -1,5 +1,5 @@
 import { Header } from "./Header";
-import { Container } from "../common/Container";
+import { Section } from "../common/Section";
 import { goalsHeader, skillsHeader } from "../namePlate";
 import { SkillsList } from "./Lists/SkillsList";
 import { FeatureList } from "./Lists/FeatureList";
@@ -11,10 +11,10 @@ export const PersonalPage = () => {
   return (
     <>
       <Header />
-      <Container
+      <Section
         title={skillsHeader}
         body={<SkillsList />} />
-      <Container
+      <Section
         title={goalsHeader}
         body={<FeatureList />}
       />
