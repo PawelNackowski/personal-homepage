@@ -1,5 +1,5 @@
 import { ButtonLink, Header, MessageIcon, Text, Wrapper } from "./styled";
-import { description, name, email } from "../../../namePlate";
+import { description, name, email } from "../../../../namePlate";
 import { ThemeButton } from "./ThemeButton";
 
 export const Content = () => (

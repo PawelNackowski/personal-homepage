@@ -1,4 +1,4 @@
-import { goals } from "../../../namePlate";
+import { goals } from "../../../../namePlate";
 import { ListItem } from "../styled";
 
 export const FeatureList = () => (

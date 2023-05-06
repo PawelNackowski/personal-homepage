@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import rootSaga from "./rootSaga";
-import themeReducers from "./PersonalPage/Header/Content/ThemeButton/themeSlice";
+import themeReducers from "./feature/PersonalPage/Header/Content/ThemeButton/themeSlice";
 
 const sagaMiddleware = createSagaMiddleware();
 

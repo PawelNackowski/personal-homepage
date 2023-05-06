@@ -1,5 +1,5 @@
 import { Button, DangerIcon, StyledContent, StyledHead, Wrapper } from "./styled";
-import { github } from "../../../namePlate";
+import { github } from "../../../../namePlate";
 
 export const Error = () => (
   <Wrapper>

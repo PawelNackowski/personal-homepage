@@ -1,4 +1,4 @@
-import { skills } from "../../../namePlate";
+import { skills } from "../../../../namePlate";
 import { ListItem } from "../styled";
 
 export const SkillsList = () => (

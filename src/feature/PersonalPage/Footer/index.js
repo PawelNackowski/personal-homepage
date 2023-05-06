@@ -1,5 +1,5 @@
 import { Socials } from "../Socjals";
-import { email, footerContent } from "../../namePlate";
+import { email, footerContent } from "../../../namePlate";
 import { Container, Content, Header, HeaderLink } from "./styled";
 
 export const Footer = () => (

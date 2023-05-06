@@ -1,6 +1,6 @@
 import { Header } from "./Header";
-import { Section } from "../common/Section";
-import { goalsHeader, skillsHeader } from "../namePlate";
+import { Section } from "../../common/Section";
+import { goalsHeader, skillsHeader } from "../../namePlate";
 import { SkillsList } from "./Lists/SkillsList";
 import { FeatureList } from "./Lists/FeatureList";
 import { ProjectSection } from "./Projects";
