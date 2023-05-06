@@ -69,9 +69,10 @@ export const StyledTile = styled.div`
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
   padding: 56px;
+  transition: 0.5s;
 
   &:hover {
-    transition: 0.5s;
+
     border: 6px solid ${({ theme }) => theme.colors.tile.border};
     box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02), 0px 16px 58px rgba(9, 10, 51, 0.03);
   }
