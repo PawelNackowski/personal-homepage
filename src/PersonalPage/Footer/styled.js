@@ -11,6 +11,7 @@ export const HeaderLink = styled.a`
   font-size: 32px;
   color: ${({ theme }) => theme.colors.footer.primary};
   text-decoration: none;
+  transition: color 0.5s;
 
   :hover {
     color: ${({ theme }) => theme.colors.footer.hover};
