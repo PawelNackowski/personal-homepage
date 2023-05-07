@@ -19,8 +19,9 @@ export const Tile = () => {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       queryClient.prefetchQuery(["repos"], fetchPortfolio);
-      return () => clearTimeout(timeoutId);
     }, 1000);
+     return () => 
+      clearTimeout(timeoutId);
   }, [queryClient]);
 
   if (isLoading) {
