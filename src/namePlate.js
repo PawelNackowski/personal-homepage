@@ -32,14 +32,14 @@ export const skills = [
   "CSS Grid",
   "JavaScript: ES6+",
   "Git",
-  "CSS Flexbox"
+  "CSS Flexbox",
+  "TanStack Query"
 ];
 
 export const goalsHeader = "What I want to learn next 🚀";
 export const goals = [
   "TypeScript",
   "React Native",
-  "TanStack Query",
   "Next.js",
   "React Context",
   "JS Classes"
