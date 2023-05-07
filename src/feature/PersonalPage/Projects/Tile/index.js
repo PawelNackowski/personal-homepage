@@ -1,25 +1,27 @@
 import { Description, Header, Link, List, WrapperLink } from "./styled";
 import { StyledTile } from "./styled";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { fetchPortfolio } from "../fetchPortfolio";
 import { Loading } from "../Loading";
 import { Error } from "../Error";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 const HIDDEN_REPOS = [
   "PawelNackowski"
 ];
 
 export const Tile = () => {
-  const [isLoading, setIsLoading] = useState(true);
-  const { data, isError } = useQuery(["repos"], fetchPortfolio);
+  const queryClient = useQueryClient();
+  const { isLoading, data, isError } = useQuery(["repos"], fetchPortfolio, {
+    enabled: false
+  });
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
+    const timeoutId = setTimeout(() => {
+      queryClient.prefetchQuery(["repos"], fetchPortfolio);
+      return () => clearTimeout(timeoutId);
     }, 1000);
-    return () => clearTimeout(timer);
-  }, []);
+  }, [queryClient]);
 
   if (isLoading) {
     return <Loading />;
