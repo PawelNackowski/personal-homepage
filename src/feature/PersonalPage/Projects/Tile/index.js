@@ -4,16 +4,23 @@ import { useQuery } from "@tanstack/react-query";
 import { fetchPortfolio } from "../fetchPortfolio";
 import { Loading } from "../Loading";
 import { Error } from "../Error";
+import { useEffect, useState } from "react";
 
 const HIDDEN_REPOS = [
   "PawelNackowski"
 ];
 
 export const Tile = () => {
-  const { isLoading, data, isError } = useQuery(
-    ["repos"],
-    fetchPortfolio
-  );
+  const [isLoading, setIsLoading] = useState(true);
+  const { data, isError } = useQuery(["repos"], fetchPortfolio);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
   if (isLoading) {
     return <Loading />;
   }
