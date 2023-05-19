@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e98c3f03-0bf0-4ea2-a629-91d66bb7cfe4" name="Changes" comment="deleted unnecessary files" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="repos" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b55da10e-1a1b-4607-837a-415e58af5fda" />
+        <option name="url" value="https://github.com/PawelNackowski/personal-homepage.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/features/Footer/styled.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="groupByToolId" value="true" />
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="sortByName" value="true" />
+  </component>
+  <component name="ProjectId" id="2OuvBZ4IsIbozB4BevqUs97GA4m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Frontend/Documents/GitHub/movie-browser&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\dev\\personal-homepage\\node_modules\\prettier&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2023.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\personal-homepage\src" />
+      <recent name="C:\dev\personal-homepage\src\feature" />
+      <recent name="C:\dev\personal-homepage\public" />
+      <recent name="C:\dev\personal-homepage\src\PersonalPage\Header\Content\ThemeButton" />
+      <recent name="C:\dev\personal-homepage\src\PersonalPage\Header\Content" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.styled.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/feature/PersonalPage/Footer/index.js" working-dir="$PROJECT_DIR$/src/feature/PersonalPage/Footer">
+      <method v="2" />
+    </configuration>
+    <configuration name="styled.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/feature/PersonalPage/Footer/styled.js" working-dir="$PROJECT_DIR$/src/feature/PersonalPage/Footer">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.styled.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.styled.js" />
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Node.js.styled.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e98c3f03-0bf0-4ea2-a629-91d66bb7cfe4" name="Changes" comment="" />
+      <created>1682423150211</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682423150211</updated>
+      <workItem from="1682423154898" duration="1086000" />
+      <workItem from="1682424293862" duration="1362000" />
+      <workItem from="1682442725763" duration="2331000" />
+      <workItem from="1682445438369" duration="255000" />
+      <workItem from="1682486012489" duration="11422000" />
+      <workItem from="1682510224135" duration="5966000" />
+      <workItem from="1682531262913" duration="36855000" />
+      <workItem from="1682848432542" duration="44992000" />
+      <workItem from="1683357902215" duration="23266000" />
+      <workItem from="1683532263109" duration="469000" />
+      <workItem from="1683540208948" duration="117000" />
+      <workItem from="1683541758641" duration="283000" />
+      <workItem from="1683618572779" duration="588000" />
+      <workItem from="1684305404221" duration="1062000" />
+    </task>
+    <task id="LOCAL-00086" summary="changed fill">
+      <created>1683187209834</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187209834</updated>
+    </task>
+    <task id="LOCAL-00087" summary="added toggleTheme on button">
+      <created>1683187273415</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187273415</updated>
+    </task>
+    <task id="LOCAL-00088" summary="deleted themeProvider and globalStyle">
+      <created>1683187305522</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187305522</updated>
+    </task>
+    <task id="LOCAL-00089" summary="deleted unnecessary semicolon">
+      <created>1683187527115</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187527115</updated>
+    </task>
+    <task id="LOCAL-00090" summary="deleted unnecessary semicolon">
+      <created>1683187537163</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187537163</updated>
+    </task>
+    <task id="LOCAL-00091" summary="deleted theme reducer">
+      <created>1683187563829</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187563829</updated>
+    </task>
+    <task id="LOCAL-00092" summary="added styled theme">
+      <created>1683187593396</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187593396</updated>
+    </task>
+    <task id="LOCAL-00093" summary="added dark theme">
+      <created>1683187626242</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187626242</updated>
+    </task>
+    <task id="LOCAL-00094" summary="deleted unnecessary file">
+      <created>1683187643945</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187643945</updated>
+    </task>
+    <task id="LOCAL-00095" summary="fill to current color">
+      <created>1683187687319</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187687319</updated>
+    </task>
+    <task id="LOCAL-00096" summary="create theme slice">
+      <created>1683187709226</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187709226</updated>
+    </task>
+    <task id="LOCAL-00097" summary="deleted unnecessary file">
+      <created>1683187734001</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1683187734001</updated>
+    </task>
+    <task id="LOCAL-00098" summary="install tanstack/react-query">
+      <created>1683189129775</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1683189129775</updated>
+    </task>
+    <task id="LOCAL-00099" summary="added queryClient">
+      <created>1683189227029</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1683189227029</updated>
+    </task>
+    <task id="LOCAL-00100" summary="deleted unnecessary files">
+      <created>1683192774098</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192774098</updated>
+    </task>
+    <task id="LOCAL-00101" summary="create fetchPortfolio">
+      <created>1683192807373</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192807373</updated>
+    </task>
+    <task id="LOCAL-00102" summary="format">
+      <created>1683192821213</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192821213</updated>
+    </task>
+    <task id="LOCAL-00103" summary="added useQuery and changed method render">
+      <created>1683192860491</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192860491</updated>
+    </task>
+    <task id="LOCAL-00104" summary="changed method render tile">
+      <created>1683192899525</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192899525</updated>
+    </task>
+    <task id="LOCAL-00105" summary="added query devtools">
+      <created>1683192921840</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192921840</updated>
+    </task>
+    <task id="LOCAL-00106" summary="install query devtools">
+      <created>1683192947015</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192947015</updated>
+    </task>
+    <task id="LOCAL-00107" summary="deleted unnecessary reducer">
+      <created>1683192977207</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192977207</updated>
+    </task>
+    <task id="LOCAL-00108" summary="deleted unnecessary fetch">
+      <created>1683192996314</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1683192996314</updated>
+    </task>
+    <task id="LOCAL-00109" summary="changed initial state to null">
+      <created>1683193164666</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1683193164666</updated>
+    </task>
+    <task id="LOCAL-00110" summary="added 0.3s transition when changing theme">
+      <created>1683194892742</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1683194892742</updated>
+    </task>
+    <task id="LOCAL-00111" summary="added share.png">
+      <created>1683195641580</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1683195641580</updated>
+    </task>
+    <task id="LOCAL-00112" summary="changed link og image">
+      <created>1683195840358</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1683195840358</updated>
+    </task>
+    <task id="LOCAL-00113" summary="edit readme.md">
+      <created>1683197143858</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1683197143858</updated>
+    </task>
+    <task id="LOCAL-00114" summary="added demo link to readme">
+      <created>1683358118685</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1683358118685</updated>
+    </task>
+    <task id="LOCAL-00115" summary="added transition 0.5s to StyledTile">
+      <created>1683358504141</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1683358504141</updated>
+    </task>
+    <task id="LOCAL-00116" summary="added transition background-color 0.5s to body">
+      <created>1683359452743</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1683359452743</updated>
+    </task>
+    <task id="LOCAL-00117" summary="added transition background-color 0.5s">
+      <created>1683359502250</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1683359502250</updated>
+    </task>
+    <task id="LOCAL-00118" summary="added transition color 0.5s to headerLink">
+      <created>1683359538965</created>
+      <option name="number" value="00118" />
+      <option name="presentableId" value="LOCAL-00118" />
+      <option name="project" value="LOCAL" />
+      <updated>1683359538965</updated>
+    </task>
+    <task id="LOCAL-00119" summary="changed error status">
+      <created>1683365261696</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1683365261696</updated>
+    </task>
+    <task id="LOCAL-00120" summary="changed format">
+      <created>1683365518181</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1683365518181</updated>
+    </task>
+    <task id="LOCAL-00121" summary="changed name Container to Section">
+      <created>1683365682262</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1683365682262</updated>
+    </task>
+    <task id="LOCAL-00122" summary="changed format">
+      <created>1683365700633</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1683365700633</updated>
+    </task>
+    <task id="LOCAL-00123" summary="changed format">
+      <created>1683365767574</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1683365767574</updated>
+    </task>
+    <task id="LOCAL-00124" summary="changed format">
+      <created>1683365989770</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1683365989770</updated>
+    </task>
+    <task id="LOCAL-00125" summary="relocated PersonalHomepage to feature folder">
+      <created>1683366189398</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1683366189398</updated>
+    </task>
+    <task id="LOCAL-00126" summary="changed initialState null to false">
+      <created>1683366288743</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1683366288743</updated>
+    </task>
+    <task id="LOCAL-00127" summary="deleted unnecessary import">
+      <created>1683368791260</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1683368791260</updated>
+    </task>
+    <task id="LOCAL-00128" summary="list generation component created">
+      <created>1683450445023</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1683450445024</updated>
+    </task>
+    <task id="LOCAL-00129" summary="changed render body in section">
+      <created>1683450517382</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1683450517382</updated>
+    </task>
+    <task id="LOCAL-00130" summary="skill moved from goals to skills">
+      <created>1683450697483</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1683450697483</updated>
+    </task>
+    <task id="LOCAL-00131" summary="added demo gif">
+      <created>1683451502279</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1683451502279</updated>
+    </task>
+    <task id="LOCAL-00132" summary="added setTimeout 1s on state loading">
+      <created>1683452974356</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1683452974356</updated>
+    </task>
+    <task id="LOCAL-00133" summary="added setTimeout 1s">
+      <created>1683455116229</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1683455116229</updated>
+    </task>
+    <task id="LOCAL-00134" summary="deleted unnecessary files">
+      <created>1683619094825</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1683619094826</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted unnecessary reducer" />
+    <MESSAGE value="deleted unnecessary fetch" />
+    <MESSAGE value="changed initial state to null" />
+    <MESSAGE value="added 0.3s transition when changing theme" />
+    <MESSAGE value="added share.png" />
+    <MESSAGE value="changed link og image" />
+    <MESSAGE value="edit readme.md" />
+    <MESSAGE value="added demo link to readme" />
+    <MESSAGE value="added transition 0.5s to StyledTile" />
+    <MESSAGE value="added transition background-color 0.5s to body" />
+    <MESSAGE value="added transition background-color 0.5s" />
+    <MESSAGE value="added transition color 0.5s to headerLink" />
+    <MESSAGE value="changed error status" />
+    <MESSAGE value="changed name Container to Section" />
+    <MESSAGE value="changed format" />
+    <MESSAGE value="relocated PersonalHomepage to feature folder" />
+    <MESSAGE value="changed initialState null to false" />
+    <MESSAGE value="deleted unnecessary import" />
+    <MESSAGE value="list generation component created" />
+    <MESSAGE value="changed render body in section" />
+    <MESSAGE value="skill moved from goals to skills" />
+    <MESSAGE value="added demo gif" />
+    <MESSAGE value="added setTimeout 1s on state loading" />
+    <MESSAGE value="added setTimeout 1s" />
+    <MESSAGE value="deleted unnecessary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted unnecessary files" />
+  </component>
+</project>
