@@ -6,5 +6,8 @@ export const HeaderLink = () => (
     <Button href="/PawelNackowskiCV.pdf" download>
       Download CV
     </Button>
+    <Button href="/PawełNackowski-CertyfikatYouCode.pdf" download>
+      Download Certyficat
+    </Button>
   </Wrapper>
 );

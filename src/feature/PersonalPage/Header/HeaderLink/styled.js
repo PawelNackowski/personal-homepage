@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   align-items: center;
   height: 60px;
   width: auto;
-  background-color: ${({ theme }) => theme.colors.section.background};
+    background-color: ${({ theme }) => theme.colors.section.background};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
@@ -22,7 +22,7 @@ export const Button = styled.a`
   border-radius: 5px;
   height: 30px;
   padding: 10px;
-  margin: 25px;
+  margin-left: 24px;
 
   color: ${({ theme }) => theme.colors.buttonLink.text};
   font-size: 15px;
