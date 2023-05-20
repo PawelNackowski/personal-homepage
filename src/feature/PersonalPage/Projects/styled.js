@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ReactComponent as GitHubIcon } from "../Socjals/Github.svg";
+import { ReactComponent as GitHubIcon } from "../Socials/Github.svg";
 
 export const Wrapper = styled.div`
   display: flex;
