@@ -5,7 +5,7 @@ import { Wrapper } from "./style";
 
 export const Header = () => (
   <>
-    {/* <HeaderLink /> */}
+    <HeaderLink />
     <Wrapper>
       <Photo />
       <Content />

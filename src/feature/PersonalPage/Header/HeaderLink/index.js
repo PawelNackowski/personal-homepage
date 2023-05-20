@@ -3,11 +3,11 @@ import { Button, Wrapper } from "./styled";
 
 export const HeaderLink = () => (
   <Wrapper>
-    <Button href="/PawelNackowskiCV.pdf" download>
+    <Button href="%PUBLIC_URL%/PawelNackowskiCV.pdf" download>
       Download CV
     </Button>
-    <Button href="/PawełNackowski-CertyfikatYouCode.pdf" download>
+    {/* <Button href="%PUBLIC_URL%/PawełNackowski-CertyfikatYouCode.pdf" download>
       Download Certificate
-    </Button>
+    </Button> */}
   </Wrapper>
 );
