@@ -1,15 +1,12 @@
+import { download } from "../../../../namePlate";
 import { Button, Wrapper } from "./styled";
 
-export const HeaderLink = () => (
+export const HeaderLink = (name) => (
   <Wrapper>
-    <Button href="/personal-homepage/PawelNackowskiCV.pdf" download>
-      Download CV
-    </Button>
-    <Button
-      href="/personal-homepage/PawełNackowski-CertyfikatYouCode.pdf"
-      download
-    >
-      Download Certificate
-    </Button>
+    {download.map(({ name, link }) => (
+      <Button href={link} download>
+        {name}
+      </Button>
+    ))}
   </Wrapper>
 );
