@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  justify-content: start;
+  justify-content: end;
   align-items: center;
-  height: 60px;
+  flex-wrap: wrap;
+  min-height: 40px;
   width: auto;
     background-color: ${({ theme }) => theme.colors.section.background};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
@@ -12,20 +13,26 @@ export const Wrapper = styled.div`
   border-radius: 4px;
   transition: background-color 0.3s;
   margin-top: 16px;
+
+  @media (max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+    justify-content: center;
+    margin: 
+  }
 `;
 
 export const Button = styled.a`
   display: flex;
+  justify-content: center;
   align-items: center;
   border: 1px solid black;
   color: white;
   border-radius: 5px;
   height: 30px;
   padding: 10px;
-  margin-left: 24px;
+  margin: 12px;
 
   color: ${({ theme }) => theme.colors.buttonLink.text};
-  font-size: 15px;
+  font-size: 14px;
   text-decoration: none;
   background-color: ${({ theme }) => theme.colors.buttonLink.background};
   border: 1px teal;
@@ -39,5 +46,13 @@ export const Button = styled.a`
 
   &:active {
     box-shadow: inset 0 2px 0 rgba(20, 70, 32, 0.2);
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    font-size: 12px 6px 12px 6px;
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMedium}px) {
+    font-size: 10px;
+    margin: 10px 6px 10px 6px;
   }
 `;
