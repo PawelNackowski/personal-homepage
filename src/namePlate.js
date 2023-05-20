@@ -66,7 +66,7 @@ export const download = [
 
 export const footerContent = (
   <>
-    I'm always open to new projects whenever I have the time. If you have a{" "}
+    I'm always open to new projects whenever I have the time. If you have a
     <br />
     website, dashboard or mobile app in mind and need some help to
     <br />
