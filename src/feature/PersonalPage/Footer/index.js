@@ -1,4 +1,4 @@
-import { Socials } from "../Socjals";
+import { Socials } from "../Socials";
 import { email, footerContent } from "../../../namePlate";
 import { Container, Content, Header, HeaderLink } from "./styled";
 
