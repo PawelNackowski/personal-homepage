@@ -7,16 +7,15 @@ export const Wrapper = styled.div`
   flex-wrap: wrap;
   min-height: 40px;
   width: auto;
-    background-color: ${({ theme }) => theme.colors.section.background};
+  background-color: ${({ theme }) => theme.colors.section.background};
   box-shadow: 0px -2px 50px rgba(9, 10, 51, 0.02),
     0px 16px 58px rgba(9, 10, 51, 0.03);
   border-radius: 4px;
   transition: background-color 0.3s;
   margin-top: 16px;
 
-  @media (max-width: ${({theme}) => theme.breakpoints.mobileMax}px) {
+  @media (max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
     justify-content: center;
-    margin: 
   }
 `;
 
