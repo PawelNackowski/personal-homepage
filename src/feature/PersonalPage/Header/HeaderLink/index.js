@@ -4,7 +4,7 @@ import { Button, Wrapper } from "./styled";
 export const HeaderLink = () => (
   <Wrapper>
     {download.map(({ name, link }) => (
-      <Button href={link} download>
+      <Button key={name} href={link} download>
         {name}
       </Button>
     ))}
