@@ -4,7 +4,7 @@ import { goalsHeader, skillsHeader } from "../../namePlate";
 import { ProjectSection } from "./Projects";
 import { Footer } from "./Footer";
 import React from "react";
-import { List } from "./Lists/List";
+import { List } from "./Lists";
 
 export const PersonalPage = () => (
   <>
