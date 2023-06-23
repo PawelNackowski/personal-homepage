@@ -6,10 +6,6 @@ import { Loading } from "../Loading";
 import { Error } from "../Error";
 import { useEffect } from "react";
 
-const HIDDEN_REPOS = [
-  "PawelNackowski"
-];
-
 export const Tile = () => {
   const queryClient = useQueryClient();
   const { isLoading, data, isError } = useQuery(["repos"], fetchPortfolio, {
@@ -20,7 +16,7 @@ export const Tile = () => {
     const timeoutId = setTimeout(() => {
       queryClient.prefetchQuery(["repos"], fetchPortfolio);
     }, 1000);
-     return () => 
+    return () =>
       clearTimeout(timeoutId);
   }, [queryClient]);
 
@@ -33,7 +29,7 @@ export const Tile = () => {
   return (
     <List>
       {data.map(({ id, name, description, homepage, html_url }) => (
-        !!HIDDEN_REPOS.includes(name) ? null : (
+        !homepage ? null : (
           <StyledTile key={id}>
             <Header>{name}</Header>
             <Description>{description}</Description>
