@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e98c3f03-0bf0-4ea2-a629-91d66bb7cfe4" name="Changes" comment="deleted unnecessary files" />
+    <list default="true" id="e98c3f03-0bf0-4ea2-a629-91d66bb7cfe4" name="Changes" comment="hiding repos that have no homepage">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,6 +136,8 @@
       <workItem from="1683618572779" duration="588000" />
       <workItem from="1684305404221" duration="1062000" />
       <workItem from="1687508038123" duration="62000" />
+      <workItem from="1687508290745" duration="2411000" />
+      <workItem from="1687590981506" duration="633000" />
     </task>
     <task id="LOCAL-00086" summary="changed fill">
       <created>1683187209834</created>
@@ -478,7 +482,7 @@
       <option name="project" value="LOCAL" />
       <updated>1683619094826</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +500,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="deleted unnecessary reducer" />
     <MESSAGE value="deleted unnecessary fetch" />
     <MESSAGE value="changed initial state to null" />
     <MESSAGE value="added 0.3s transition when changing theme" />
@@ -521,6 +524,7 @@
     <MESSAGE value="added setTimeout 1s on state loading" />
     <MESSAGE value="added setTimeout 1s" />
     <MESSAGE value="deleted unnecessary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted unnecessary files" />
+    <MESSAGE value="hiding repos that have no homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="hiding repos that have no homepage" />
   </component>
 </project>
