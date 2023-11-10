@@ -56,7 +56,7 @@ export const linkedIn = "https://www.linkedin.com/in/pawelnackowski";
 export const download = [
   {
     name: "Download CV",
-    link: "/personal-homepage/PawelNackowskiCV.pdf",
+    link: "/personal-homepage/Pawel_Nackowski_CV.pdf",
   },
   {
     name: "Download Certificate",
