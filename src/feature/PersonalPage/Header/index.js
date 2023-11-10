@@ -1,11 +1,11 @@
 import { Content } from "./Content";
-import { HeaderLink } from "./HeaderLink";
+// import { HeaderLink } from "./HeaderLink";
 import { Photo } from "./Photo";
 import { Wrapper } from "./style";
 
 export const Header = () => (
   <>
-    <HeaderLink />
+  //  <HeaderLink />
     <Wrapper>
       <Photo />
       <Content />
