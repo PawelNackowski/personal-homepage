@@ -36,15 +36,23 @@ export const skills = [
   "Git",
   "CSS Flexbox",
   "TanStack Query",
+  "JS Classes",
+  "Node.js",
 ];
 
 export const goalsHeader = "What I want to learn next 🚀";
 export const goals = [
   "TypeScript",
   "React Native",
-  "Next.js",
   "React Context",
-  "JS Classes",
+  "MongoDB",
+  "MySQL",
+  "PHP",
+  "C++",
+  "Python",
+  "Angular",
+  "Bootstrap",
+  "Tailwind CSS",
 ];
 
 export const email = "pawelnackowski@gmail.com";
