@@ -38,6 +38,8 @@ export const skills = [
   "TanStack Query",
   "JS Classes",
   "Node.js",
+  "MongoDB",
+  "Bootstrap",
 ];
 
 export const goalsHeader = "What I want to learn next 🚀";
@@ -45,13 +47,11 @@ export const goals = [
   "TypeScript",
   "React Native",
   "React Context",
-  "MongoDB",
   "MySQL",
   "PHP",
   "C++",
   "Python",
   "Angular",
-  "Bootstrap",
   "Tailwind CSS",
 ];
 
